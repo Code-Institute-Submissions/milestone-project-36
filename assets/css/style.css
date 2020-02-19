@@ -1,0 +1,220 @@
+/*-------------- General Styles */
+em>h1, em>h2 {
+  color: #ff0101;
+  font-weight: bold;
+  text-shadow: 2px 4px 2px #6a6872;
+}
+
+h1 {
+  color: #ff4901;
+}
+main {
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+}
+header {
+  background-color: whitesmoke;
+  z-index: auto;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.navbar:hover {
+  background-color:#05023f ;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+  color:#fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(250, 249, 249, 0.5);
+}
+.navbar {
+  margin: 0;
+  padding: 0px 20px 0px;
+  border: none;
+  background-color: rgb(3, 3, 73);
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+.menucolor-home {
+  background-color: hsl(0, 90%, 26%);
+}
+.menucolor-about {
+  background-color: #350475;
+}
+.menucolor-audios {
+  background-color: #031d0c;
+}
+.menucolor-videos {
+  background-color: #521705;
+}
+.menucolor-more {
+  background-color: #430353;
+}
+.menucolor-contact {
+  background-color: rgb(39, 35, 245);
+}
+
+a {
+color: rgb(235, 210, 173);
+}
+
+.spacer {
+  padding: 110px 0 0 0;
+}
+/* ......... Background .............*/
+#banner { 
+  background: url("../images/albatross-banner.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 0;
+  margin-top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+body {
+    background-color: #000;
+}
+
+/*.............Navigation Bar ................*/
+.nav-item {
+  color: #fff;
+  padding: 0;
+  margin: 10px;
+  font-size: large;
+}
+
+.btn-rounded {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+  height: 2rem;
+  background-color: #f02424;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.btn-rounded>span, .blink {
+  margin: 15px;
+}
+span span {
+  margin: 0.25rem;
+}
+#about p {
+  color: white;
+  font-size: 1.3em;
+  text-align: justify;
+  border-left: 5px solid white;
+  padding: 0px 20px 0px;
+
+}
+em>p {
+  color: white;
+  font-size: 1.3em;
+  text-align: justify;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  padding: 0px 20px 0px;
+  width: fit-content;
+}
+#albums img {
+  height: 200px;
+}
+#albums img:hover {
+  height: 250px;
+}
+#gallery img {
+  height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer-details {
+  background-color: #6a6872;
+  padding: 7px;
+  color: #fff;
+}
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fff;
+  background: #415383;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #7510e8;
+}
+form .btn-rounded {
+  margin: 20px;
+}
+/* ......... Media Queries .............*/
+@media (max-width: 767px) {
+ 
+  .navbar {
+    background-color: #000;
+    opacity: 0.9;
+    max-width: 415px;
+  }
+  #albums img {
+    height: 150px;
+    margin: 5px;
+  }
+ 
+  #banner {
+    background: url("../images/albatross-banner.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    margin-top: 0;
+    height: 50vh;
+  }
+
+  .spacer {
+    padding: 400px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar .btn-rounded {
+    height: 3.2rem;
+    font-size: 0.6em;
+  }
+  .navbar span{
+    margin: 2px;
+    padding: 2px;
+  }
+  #albums img {
+    height: 100px;
+    margin: 5px;
+  }
+}

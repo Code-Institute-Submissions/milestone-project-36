@@ -1,0 +1,99 @@
+/*..............Background imgae.........*/
+#banner {
+-webkit-animation:zoom-in-out 1s ease-in-out 0s 1 normal;
+-moz-animation:zoom-in-out 1s ease-in-out 0s 1 normal;
+-ms-animation:zoom-in-out 1s ease-in-out 0s 1 normal;
+animation:zoom-in-out 1s ease-in-out 0s 1 normal;
+}
+
+@-webkit-keyframes zoom-in-out {
+0%{ -webkit-transform: scale(1); transform: scale(1); }
+50%{ -webkit-transform: scale(1.2); transform: scale(1.2); }
+100%{ -webkit-transform: scale(1); transform: scale(1); }
+}
+
+@keyframes zoom-in-out {
+0%{ -ms-transform: scale(1); transform: scale(1); }
+50%{ -ms-transform: scale(1.2); transform: scale(1.2); }
+100%{ -ms-transform: scale(1); transform: scale(1); }
+}
+
+/*------------- Band Logo ----------------------*/
+.logoUp {
+-webkit-animation:jump 2s ease-in-out 0s 5 normal;
+-moz-animation:jump 2s ease-in-out 0s 5 normal;
+-ms-animation:jump 2s ease-in-out 0s 5 normal;
+animation:jump 2s ease-in-out 0s 5 normal;
+}
+
+@-webkit-keyframes jump{
+0%{ -webkit-transform:translateY(0); transform:translateY(0); }
+20%{ -webkit-transform:translateY(0); transform:translateY(0); }
+40%{ -webkit-transform:translateY(-30px); transform:translateY(-30px); }
+50%{ -webkit-transform:translateY(0); transform:translateY(0); }
+60%{ -webkit-transform:translateY(-15px); transform:translateY(-15px); }
+80%{ -webkit-transform:translateY(0); transform:translateY(0); }
+100%{ -webkit-transform:translateY(0);transform:translateY(0); }
+}
+
+@keyframes jump{
+0%{ transform:translateY(0); }
+20%{ transform:translateY(0); }
+40%{ transform:translateY(-30px); }
+50%{ transform:translateY(0); }
+60%{ transform:translateY(-15px); }
+80%{ transform:translateY(0); }
+100%{ transform:translateY(0); }
+}
+
+.logoUp:hover {
+    background-color: white;
+}
+/*---------------- Blink text ........ */
+.blink {
+  -webkit-animation: blink 2s steps(2, end) infinite both;
+  animation: blink 2s steps(2, end) infinite both;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*---------------- Hover.css ........ */
+.hvr-sweep-to-bottom:before {
+    background: rgba(128, 116, 116, 0.2);
+    height: 2.66rem;
+}
+
+/*---------------- buttons ........ */
+.btn-rounded:hover {
+  position: relative;
+  z-index: 1031;
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+.btn-rounded:link, .btn-rounded:focus, .btn-rounded:active:focus {
+  background-color:rgb(151, 3, 10);
+  color: rgb(229, 240, 237);
+}
