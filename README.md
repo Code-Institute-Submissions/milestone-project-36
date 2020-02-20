@@ -1,6 +1,6 @@
-# Code Institute
+# Albatross - A Nepali Band
 
-Welcome gpun10,
+This website is about a band from Nepal.
 
 We have preinstalled all of the tools you need to get started.
 

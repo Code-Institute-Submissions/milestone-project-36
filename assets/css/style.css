@@ -121,7 +121,7 @@ span span {
 }
 #about p {
   color: white;
-  font-size: 1.3em;
+  font-size: 1.4em;
   text-align: justify;
   border-left: 5px solid white;
   padding: 0px 20px 0px;
@@ -149,17 +149,19 @@ em>p {
   margin-right: auto;
 }
 #footer-details {
-  background-color: #6a6872;
+  background-color: #201f20;
   padding: 7px;
   color: #fff;
+    margin-top: 200px;
+
 }
 .social-links li a i {
   width: 32px;
   height: 32px;
   padding: 12px 0;
   border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
+  font-size: 17px;
+  line-height: 10px;
   text-align: center;
   color: #fff;
   background: #415383;
@@ -171,9 +173,16 @@ em>p {
 
 .social-links li a i:hover {
   background: #7510e8;
+  font-size: 250%;
 }
+
 form .btn-rounded {
   margin: 20px;
+}
+.modal-content {
+    height: fit-content;
+    border-radius: 3%;
+    background-image: linear-gradient(yellow, green, yellow);
 }
 /* ......... Media Queries .............*/
 @media (max-width: 767px) {
@@ -202,8 +211,25 @@ form .btn-rounded {
   .spacer {
     padding: 400px 0 0 0;
   }
+  em>p {
+  color: white;
+  font-size: 1em;
+  text-align: justify;
+  border: none;
+  padding: 0px 10px 0px;
+  width: fit-content;
+    }
+#about p {
+  color: white;
+  font-size: 1.2em;
+  text-align: justify;
+  border-left: 2px solid white;
+  margin-top: 5px;
+  padding: 0px 10px 0px;
+
 }
 
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .navbar .btn-rounded {
     height: 3.2rem;

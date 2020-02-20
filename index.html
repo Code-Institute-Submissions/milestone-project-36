@@ -26,7 +26,20 @@
         }
         .parallax2 {
           /* The image used */
-          background-image: url("assets/images/bg.png");
+          background-image: url("assets/images/background.jpg");
+        
+          /* Set a specific height */
+          height: 100vh;
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .parallax3 {
+          /* The image used */
+          background-image: url("assets/images/background1.jpg");
         
           /* Set a specific height */
           height: 100vh;
@@ -143,7 +156,7 @@
                 </div>
                
             </section>        
-            <section id="videos" class="parallax1 spacer">
+            <section id="videos" class="parallax3 spacer">
                 <button class="btn btn-rounded btn-about text-uppercase"><span><i class="fas fa-film"></i></span>Videos<span></span></button>
                  <div class="container-fluid">
                      <div class="row">
@@ -164,7 +177,7 @@
                 
                     
             </section>
-            <section id="albums" class="container-fluid spacer">
+            <section id="albums" class="container-fluid parallax2 spacer">
                 <button class="btn btn-rounded btn-about text-uppercase"><span><i class="fas fa-compact-disc"></i></span>Album Releases<span></span></button>
                 <div class="row">
                     <div class="col col-md-3">
@@ -220,7 +233,7 @@
     <footer id="footer-details" class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
-                <p class="inline-block">@Copyright reserved</p>
+                <p class="inline-block">@Designed & Developed by Ganesh2020</p>
 
             </div>
             <div class="col-sm-6">
@@ -282,16 +295,16 @@
                         
                         <div class="form-group">
                             <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
                         </div>
                         <div class="form-group">
                             <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
