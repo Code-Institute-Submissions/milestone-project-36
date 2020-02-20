@@ -163,8 +163,8 @@ em>p {
   font-size: 17px;
   line-height: 10px;
   text-align: center;
-  color: #fff;
-  background: #415383;
+  color: rgb(255, 255, 255);
+  background: #cf1f63;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -228,6 +228,7 @@ form .btn-rounded {
   padding: 0px 10px 0px;
 
 }
+
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
