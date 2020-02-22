@@ -76,13 +76,26 @@ animation:jump 2s ease-in-out 0s 5 normal;
     opacity: 1;
   }
 }
-
+.dropdown-menu {
+    background-image: linear-gradient(rgb(0, 26, 255), rgb(25, 213, 246), rgb(68, 0, 255));
+}
 /*---------------- Hover.css ........ */
 .hvr-sweep-to-bottom:before {
     background: rgba(128, 116, 116, 0.2);
     height: 2.66rem;
 }
-
+hvr-sweep-to-bottom {
+    background: rgba(128, 116, 116, 0.2);
+    height: 2.66rem;
+}
+.hvr-sweep-to-right:before {
+    background:   rgba(168, 185, 224, 0.973);
+    height: 2.66rem;
+}
+hvr-sweep-to-right {
+    background: rgba(168, 185, 224, 0.973);
+    height: 2.66rem;
+}
 /*---------------- buttons ........ */
 .btn-rounded:hover {
   position: relative;
