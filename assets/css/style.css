@@ -149,6 +149,9 @@ em>p {
   padding: 0px 20px 0px;
   width: fit-content;
 }
+#gallery {
+    padding-bottom: 10%;
+}
 #albums img {
   height: 200px;
 }
@@ -165,8 +168,6 @@ em>p {
   background-color: #201f20;
   padding: 7px;
   color: #fff;
-    margin-top: 200px;
-
 }
 .social-links li a i {
   width: 32px;
