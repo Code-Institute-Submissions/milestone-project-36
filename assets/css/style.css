@@ -3,10 +3,15 @@
 #banner, #about, #audios, #videos, #albums, #gallery {
     overflow: hidden;
 }
-.navbar li, h1, h2{
+iframe {
+    border: none;
+    opacity: 1;
+   filter:alpha(opacity=0);
+}
+.navbar li, h1, h2, h5 {
     font-family: 'Trade Winds', sans-serif;
 }
-em>h1, em>h2 {
+h1, h2 {
   color: #ff0101;
   font-weight: bold;
   text-shadow: 2px 4px 2px #6a6872;
@@ -113,7 +118,7 @@ body {
 
 .btn-rounded {
   color: #fff;
-  font-family: 'sans serif';
+  font-family: 'trade winds', sans-serif;
   font-weight: bold;
   border-radius: 25px;
   margin-bottom: 10px;
@@ -140,15 +145,16 @@ span span {
   padding: 0px 20px 0px;
 
 }
-em>p {
+#audios p, #videos p {
   color: white;
   font-size: 1.3em;
-  text-align: justify;
-  border-top: 5px solid white;
-  border-bottom: 5px solid white;
-  padding: 0px 20px 0px;
+  text-align: center;
+   border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  padding: 0px 10px 0px;
   width: fit-content;
-}
+    }
+
 #gallery {
     padding-bottom: 10%;
 }
@@ -228,10 +234,10 @@ form .btn-rounded {
   .spacer {
     padding: 400px 0 0 0;
   }
-  em>p {
+  #audios p, #videos p {
   color: white;
   font-size: 1em;
-  text-align: justify;
+  text-align: left;
   border: none;
   padding: 0px 10px 0px;
   width: fit-content;
