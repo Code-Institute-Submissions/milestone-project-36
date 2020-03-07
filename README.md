@@ -5,23 +5,23 @@ The initial home page will be used to engage new fans. There will then be anchor
 
 ## UX
 As a user, I want to use the website to:
-•	listen to the bands music and watch videos (should include at least one video clip),
-•	find links to their social media and other media 
-•	look at photos of the band on tour and of each individual band member.
-•	see the bands tour dates and 'availability for booking' and are able to contact the band to organise gigs.
+- listen to the bands music and watch videos (should include at least one video clip),
+- find links to their social media and other media 
+- look at photos of the band on tour and of each individual band member.
+- see the bands tour dates and 'availability for booking' and are able to contact the band to organise gigs.
 Prior to beginning the project, I first drew a very basic wireframe for the web page. Here are the sketches I drew the following wireframe.
-•	Wireframe 1
+- Wireframe 1
 However, during development I made many changes to what was initially planned. While developing the project, I used the Whiskey Drop and Resume projects in the course for design and content inspiration.
 
 ## Features
 The website will have a header and footer. Between the header and footer, the main body is divided into different sections: about, audio, video, albums, gallery. 
 The following points describe the salient features.
-•	The initial home page will display an animation of the band picture with some other graphics. 
-•	The about section will contain a brief description of the band with the names of the band members.
-•	The music section will contain some samples of the of the bands music.
-•	The gallery section will contain a slide show of a variety of the band pictures.
-•	The video section will contain a sample music video of the band with a link to other videos included.
-•	The album section will have the albums created by the band.
+- The initial home page will display an animation of the band picture with some other graphics. 
+- The about section will contain a brief description of the band with the names of the band members.
+- The music section will contain some samples of the of the bands music.
+- The gallery section will contain a slide show of a variety of the band pictures.
+- The video section will contain a sample music video of the band with a link to other videos included.
+- The album section will have the albums created by the band.
 Other sections may be added if needed.
  A contact form will pop up when clicked on the contact button on the header.
 ### Existing Features
@@ -81,3 +81,6 @@ The text about the band was copied from the band's [official website](http://alb
 - The band logo and the pictures in the site were obtained from [Google image searches](https://www.google.ie/search?hl=en&tbm=isch&sxsrf=ALeKk02QRigdF6iT5vV2yNbz091xUqyVcg%3A1583107462611&source=hp&biw=1600&bih=789&ei=hk1cXvSTI6TB8gK0l5GIAQ&q=albatross+nepal&oq=al&gs_l=img.1.0.35i39l2j0l3j0i131j0l4.2375.2654..4176...0.0..0.82.174.3......0....1..gws-wiz-img.....10..35i362i39.FvQvAY81mt0).
 - The video on the website is embedded from the [band's youtube channel](https://www.youtube.com/watch?v=MryGXRBURgE&feature=emb_logo).
 - The music is embeded from [spotify](https://open.spotify.com/album/20n6ddOmfzydLJ7cIzE52I?si=9FKc9_ZMT0-beeKyKkUkXg) and [soundcloud](https://soundcloud.com/albatrossnepal/sets/ma-ra-malai).
+
+## Acknowledgement
+I received inspiration for this project mainly from the whiskey drop and resume projects in my course. I also tried to implement some aspects using the [music band website samples](https://www.free-css.com/template-categories/music) I found while searching in google.
