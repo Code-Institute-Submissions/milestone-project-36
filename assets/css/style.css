@@ -91,6 +91,16 @@ color: rgb(235, 210, 173);
 .spacer {
   padding: 110px 0 0 0;
 }
+
+.form-row {
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  color: #fff;
+}
+.form-row .btn-dark {
+  color: #fff;
+  background-color: #000;
+}
 /* ......... Background .............*/
 #banner { 
   background: url("../images/albatross-banner.jpg") no-repeat center center;
@@ -157,6 +167,9 @@ span span {
 
 #gallery {
     padding-bottom: 10%;
+}
+#events {
+  padding-bottom: 10%;
 }
 #albums img {
   height: 200px;
