@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="assets/images/title-icon.jpg" type="image/jpg" />
     <style> 
         body {
-            background-image: linear-gradient(to right, #000, rgb(73, 70, 70), rgb(112, 109, 109),rgb(48, 47, 47), #000);
+            background-image: linear-gradient(to right, rgb(1, 0, 8), rgb(6, 0, 20), #141414,rgb(48, 47, 47), rgb(42, 6, 126));
         }
             
     </style> -->
@@ -27,7 +27,7 @@
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <div>
                 <a class="navbar-brand" href="#">
-                    <img class="logoUp" alt="The Band logo" src="assets/images/Albatross_Logo.png" style="height: 45px;" />
+                    <img class="logoUp" alt="The Band logo" src="assets/images/Albatross_Logo.png" style="height: 45px; width: 150px;" />
                 </a>
             </div>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,49 +35,26 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto text-uppercase">
-                    <li class="nav-item mr-2 btn btnmenu menucolor-home hvr-sweep-to-bottom"><a class="nav-link" href="#"><i class="fas fa-house-damage"></i><span><span></span></span>Home</a></li>
-                    <li class="nav-item mr-2 btn btnmenu menucolor-about hvr-sweep-to-bottom"><a class="nav-link" href="#about"><i class="fas fa-info-circle"></i><span><span></span></span>About</a></li>
-                    <li class="nav-item mr-2 btn btnmenu menucolor-audios hvr-sweep-to-bottom"><a class="nav-link" href="#audios"><i class="fas fa-music"></i><span><span></span></span>Audios</a></li>
-                    <li class="nav-item mr-2 btn btnmenu menucolor-videos hvr-sweep-to-bottom"><a class="nav-link" href="#videos"><i class="fas fa-video"></i><span><span></span></span>Videos</a></li>
-                    <li class="nav-item dropdown btn btnmenu menucolor-more hvr-sweep-to-bottom">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> More</a>
-            
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item hvr-sweep-to-right" href="#events" target="_blank" >Events</a>
-                            <a class="dropdown-item hvr-sweep-to-right" href="#albums">Our latest albums</a>
-                            <a class="dropdown-item hvr-sweep-to-right" href="#gallery">Image Gallery</a>
-                            <a class="d-block d-sm-block d-md-none d-sm-none d-md-block d-lg-none dropdown-item hvr-sweep-to-right" data-toggle="modal" data-target="#signUpModal"><span><i class="far fa-envelope"></i><span></span>Contact us</span></a>
-                        </div>
-                    </li>
-    
-                    
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#"><i class="fas fa-house-damage"></i><span><span></span></span>Home</a></li>
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#about"><i class="fas fa-info-circle"></i><span><span></span></span>About</a></li>
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#audios"><i class="fas fa-music"></i><span><span></span></span>Music</a></li>
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#videos"><i class="fas fa-video"></i><span><span></span></span>Videos</a></li>
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#events"><i class="fas fa-plane" aria-hidden="true"></i><span><span></span></span>Tours</a></li>
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#albums"><i class="fas fa-compact-disc"></i><span><span></span></span>Albums</a></li>  
+                    <li class="nav-item mr-2 btn btnmenu hvr-sweep-to-bottom"><a class="nav-link" href="#gallery"><i class="fas fa-images"></i><span><span></span></span>Images</a></li>  
                 </ul>    
             </div>
-            <div class="d-none d-md-block">
-               <button class="btn btn-rounded text-uppercase" data-toggle="modal" data-target="#signUpModal"><span><i class="far fa-envelope"></i></span>Contact us<span></span></button>
-            </div>
-        </nav> 
+            
+            
+            
+        </nav>
+        
+        <div id="banner">
+            
+        </div>
         
     </header> 
-    <main>
-           <!-- <section id="banner" class="spacer">
-            <h2 class="sr-only">Albatross Nepal</h2>
-                 <div class="d-none d-lg-block">
-                    <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink">Passion for the music</h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                </div>
-                <div class="d-block d-sm-block d-md-none d-sm-none d-md-block d-lg-none">
-                    <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                <h2 class="blink">Passion for the music</h2>
-                <h2 class="blink"><i class="fas fa-music blink"></i><i class="fas fa-music blink"></i></h2>
-                </div>              
-            </section>    -->            
+    <main>       
             <section id="about" class="parallax1 spacer">
             <h2 class="sr-only">Albatross Nepal</h2>
                 <button class="btn btn-rounded text-uppercase"><span><i class="fas fa-info"></i></span>About us<span></span></button>
@@ -106,17 +83,27 @@
                 <button class="btn btn-rounded text-uppercase"><span><i class="fab fa-playstation"></i></span>Playlist<span></span></button>
                 <div class="container-fluid">
                      <div class="row">
-                    <div class="col col-md-6">
+                    <div class="col col-md-4">
+                        <iframe src="https://open.spotify.com/embed/album/4ywLzWOd2SyjONejcftSe3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        
+                         
+                    </div>
+                    <div class="col col-md-4">
                         <iframe src="https://open.spotify.com/embed/album/3an8e57df90QL12PqFnGYZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                         
                          
                     </div>
-                    <div class="col col-md-6 d-none d-lg-block">
+                    <div class="col col-md-4">
+                        <iframe src="https://open.spotify.com/embed/album/20n6ddOmfzydLJ7cIzE52I" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        
+                         
+                    </div>
+                    <!-- <div class="col col-md-6 d-none d-lg-block">
                         <iframe src="https://open.spotify.com/embed/album/4ywLzWOd2SyjONejcftSe3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                     <div class="d-block d-sm-block d-md-none d-sm-none d-md-block d-lg-none">
                         <iframe src="https://open.spotify.com/embed/album/4ywLzWOd2SyjONejcftSe3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                    </div> -->
                 </div>
                 </div>
                
@@ -129,16 +116,72 @@
                         <div class="col col-md-6">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/GmrfF-H5cgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="col col-md-6 d-none d-lg-block">
+                        <div class="col col-md-6">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/MryGXRBURgE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="d-block d-sm-block d-md-none d-sm-none d-md-block d-lg-none">
-                            <iframe width="420" height="315" src="https://www.youtube.com/embed/MryGXRBURgE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>    
+
                     </div>
                  </div>  
                 
                     
+            </section>
+            <section id="events" class="spacer">
+                <h2>
+                    <button class="btn btn-rounded text-uppercase"><span><i class="fas fa-plane" aria-hidden="true"></i></span>Our tours<span></span></button>
+                </h2>
+                <div class="container-fluid">        
+                   
+                        <!-- Tours  -->  
+                        <!-- Row 1 -->      
+                        <div class="form-row">
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-2">
+                            <i class="calendar-icon mr-2 fas fa-calendar" aria-hidden="true"></i> Oct 08
+                            </div>
+                            <div class="col-sm-2">
+                            Dashain Festival
+                            </div>
+                            <div class="col-sm-2">
+                            Radisson Blu Hotel, Dublin, IRL.
+                            </div>
+                            <div class="col-sm-2">
+                            <button class="btn btn-dark disabled" aria-disabled="true">SOLD OUT</button>
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                        </div>   
+                        
+                        <!-- Row 2 -->
+                        <div class="form-row">
+                            <div class="col-sm-2">
+                            </div>            
+                            <div class="col-sm-2">
+                            <i class="calendar-icon mr-2 fas fa-calendar" aria-hidden="true"></i> Oct 30
+                            </div>
+                            <div class="col-sm-2">
+                            Tihar Festival
+                            </div>
+                            <div class="col-sm-2">
+                            Three Arena, Dublin, IRL.
+                            </div>
+                            <div class="col-sm-2">
+                            <button class="btn btn-dark disabled" aria-disabled="true">SOLD OUT</button>
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                        </div>
+                        <!-- 3rd row-->
+                        <div class="form-row">
+                            <div class="col-sm">
+                            <h4>Book us for your events</h4>
+                            
+                            <!-- Modal Enquiry Button --> 
+                            <button class="btn btn-dark" data-toggle="modal" data-target="#signUpModal">Enquire</button>
+                        </div> 
+                </div>
+                </div>
+        
             </section>
             <section id="albums" class="container-fluid parallax2 spacer">
             <h2>
@@ -162,7 +205,9 @@
             <section id="gallery" class="container-fluid spacer">
             <h2 class="sr-only">Albatross Nepal</h2>
                 <button class="btn btn-rounded text-uppercase"><span><i class="fab fa-envira"></i><i class="fab fa-envira"></i></span>Image Gallery<span></span></button>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                
+                
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block img-fluid w-70" src="assets/images/gallery/gallery1.jpg" alt="First slide">
@@ -191,75 +236,23 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
-                  </div>
+                    </div>
             </section>
    
-    <section id="events" class="spacer">
-        <h2>
-            <button class="btn btn-rounded text-uppercase"><span><i class="fas fa-plane" aria-hidden="true"></i></span>Our tours<span></span></button>
-        </h2>
-        <div class="container-fluid">        
-           
-                <!-- Tours  -->  
-                <!-- Row 1 -->      
-                <div class="form-row">
-                    <div class="col-sm-2">
-                    </div>
-                    <div class="col-sm-2">
-                    <i class="calendar-icon mr-2 fas fa-calendar" aria-hidden="true"></i> Oct 08
-                    </div>
-                    <div class="col-sm-2">
-                    Dashain Festival
-                    </div>
-                    <div class="col-sm-2">
-                    Radisson Blu Hotel, Dublin, IRL.
-                    </div>
-                    <div class="col-sm-2">
-                    <button class="btn btn-dark disabled" aria-disabled="true">SOLD OUT</button>
-                    </div>
-                    <div class="col-sm-2">
-                    </div>
-                </div>   
-                
-                <!-- Row 2 -->
-                <div class="form-row">
-                    <div class="col-sm-2">
-                    </div>            
-                    <div class="col-sm-2">
-                    <i class="calendar-icon mr-2 fas fa-calendar" aria-hidden="true"></i> Oct 30
-                    </div>
-                    <div class="col-sm-2">
-                    Tihar Festival
-                    </div>
-                    <div class="col-sm-2">
-                    Three Arena, Dublin, IRL.
-                    </div>
-                    <div class="col-sm-2">
-                    <button class="btn btn-dark disabled" aria-disabled="true">SOLD OUT</button>
-                    </div>
-                    <div class="col-sm-2">
-                    </div>
-                </div>
-                <!-- 3rd row-->
-                <div class="form-row">
-                    <div class="col-sm">
-                    <h4>Book us for your events</h4>
-                    
-                    <!-- Modal Enquiry Button --> 
-                    <button class="btn btn-dark" data-toggle="modal" data-target="#signUpModal">Enquire</button>
-                </div> 
-        </div>
-        </div>
 
-    </section>
     </main>
-    <footer id="footer-details" class="container-fluid fixed-bottom">
+    <footer id="footer-details" class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
-                <p class="inline-block"><i class="fab fa-creative-commons"></i><span><span></span></span>Designed & Developed by Ganesh2020</p>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <p class="inline-block"><i class="fab fa-creative-commons"></i><span><span></span></span>Albatross Nepal</p>
 
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
             
                     <ul class="list-inline social-links">
                         <li class="list-inline-item"><em>Find us on<span><span></span></span></em></li>
@@ -298,6 +291,7 @@
                     </ul>
                     
             </div>
+            <div class="col-sm-4"></div>
         </div>
     </footer>
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">

@@ -1,10 +1,14 @@
 /*-------------- General Styles */
 @import url('https://fonts.googleapis.com/css?family=Akronim|Simonetta|Trade+Winds&display=swap');
-#banner, #about, #audios, #videos, #albums, #gallery {
+#about, #audios, #videos, #albums, #gallery {
     overflow: hidden;
+
 }
+
+
 iframe {
     border: none;
+    width: auto;
     opacity: 1;
    filter:alpha(opacity=0);
 }
@@ -25,11 +29,7 @@ main {
 nav ul {
   margin: 0;
 }
-header {
-  background-color: whitesmoke;
-  z-index: auto;
-  
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -48,15 +48,15 @@ nav {
   margin: 0;
   padding: 0px 20px 0px;
   border: none;
-  background-image: linear-gradient(to right, #000, rgb(73, 70, 70), rgb(112, 109, 109),rgb(48, 47, 47), #000);
+  background-color: #000;
 }
 .navbar:hover {
-  background-image: linear-gradient(to right, rgb(243, 235, 235), rgb(26, 25, 25), rgb(17, 17, 17),rgb(17, 16, 16), rgb(53, 52, 52)); /*...... hover effect navbar .....*/
+  background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(26, 25, 25), rgb(17, 17, 17),rgb(17, 16, 16), rgb(53, 52, 52)); /*...... hover effect navbar .....*/
 
 } 
 
 .spacer {
-  padding: 110px 0 0 0;
+  padding: 75px 0 0 0;
 }
 
 .form-row {
@@ -69,7 +69,8 @@ nav {
   background-color: #000;
 }
 /* ......... Background .............*/
-header { 
+#banner { 
+  padding-top: 100px;
   background: url("../images/albatross-banner.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -129,26 +130,24 @@ span span {
   width: fit-content;
     }
 
-#gallery {
-    padding-bottom: 10%;
-}
-#events {
-  padding-bottom: 10%;
-}
+
+
 #albums img {
   height: 200px;
+  width: auto;
 }
 #albums img:hover {
-  height: 250px;
+  height: 210px;
 }
 #gallery img {
-  height: 50vh;
+  max-height: 400px;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 #footer-details {
-  background-color: #201f20;
+  background-color: #000;
   padding: 7px;
   color: #fff;
 }
@@ -188,12 +187,13 @@ form .btn-rounded {
   
   #albums img {
     height: 150px;
+    width: auto;
     margin: 5px;
   }
  #about, #audios, #videos, #albums, #gallery {
     overflow: scroll;
 }
-  header {
+  #banner {
     background: url("../images/albatross-banner.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -205,7 +205,7 @@ form .btn-rounded {
   }
 
   .spacer {
-    padding: 170px 0 0 0;
+    padding: 10px 0 0 0;
   }
   #audios p, #videos p {
   color: white;
@@ -224,7 +224,9 @@ form .btn-rounded {
   padding: 0px 10px 0px;
 
 }
-
+#events {
+  margin-bottom: 50px;
+}
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -238,6 +240,10 @@ form .btn-rounded {
   }
   #albums img {
     height: 100px;
-    margin: 5px;
+   
+    margin: 7px;
+  }
+  #albums img:hover {
+    height: 110px;
   }
 }

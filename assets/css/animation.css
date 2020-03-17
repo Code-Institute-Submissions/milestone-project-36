@@ -76,9 +76,7 @@ animation:jump 2s ease-in-out 0s 5 normal;
     opacity: 1;
   }
 }
-.dropdown-menu {
-    background-image: linear-gradient(rgb(0, 26, 255), rgb(25, 213, 246), rgb(68, 0, 255));
-}
+
 /*---------------- Hover.css ........ */
 .hvr-sweep-to-bottom:before {
     background: rgba(128, 116, 116, 0.2);
@@ -105,6 +103,15 @@ hvr-sweep-to-right {
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
   -o-transform: scale(1.3);
+}
+li .btn-rounded:hover {
+  position: relative;
+  z-index: 1031;
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  -ms-transform: scale(1.0);
+  -o-transform: scale(1.0);
 }
 .btn-rounded:link, .btn-rounded:focus, .btn-rounded:active:focus {
   background-color:rgb(151, 3, 10);
