@@ -194,14 +194,10 @@ form .btn-rounded {
     overflow: scroll;
 }
   #banner {
-    background: url("../images/albatross-banner.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
     z-index: 0;
-    margin-top: 0;
-    height: 50vh;
+    margin-top: 40px;
+    height: 33vh;
   }
 
   .spacer {

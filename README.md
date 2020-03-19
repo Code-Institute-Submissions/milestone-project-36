@@ -72,7 +72,7 @@ I have tested the webpage using the following:
 - Running the website on different devices phones and tablets (apple, android).
 
 ## Deployment 
-I used GitHub Pages for deployment using my master branch as the source.
+I used GitHub Pages for deployment using my master branch as the source.I first set up a GitHub repository on my GitHub account. I named it 'milestone-project-1'. After my first stage of developing  my website on visual studio, I deployed it to the GitHub repository. I pushed my all files/folders, then set up GitHub as a master branch, allowing it to be used as a GiHub page and the webpage is now hosted on a GitHub page.
 
 ## Credits 
 ### Content

@@ -20,10 +20,10 @@ animation:zoom-in-out 1s ease-in-out 0s 1 normal;
 
 /*------------- Band Logo ----------------------*/
 .logoUp {
--webkit-animation:jump 2s ease-in-out 0s 5 normal;
--moz-animation:jump 2s ease-in-out 0s 5 normal;
--ms-animation:jump 2s ease-in-out 0s 5 normal;
-animation:jump 2s ease-in-out 0s 5 normal;
+   -webkit-animation:jump 2s ease-in-out 0s 3 normal;
+   -moz-animation:jump 2s ease-in-out 0s 3 normal;
+   -ms-animation:jump 2s ease-in-out 0s 3 normal;
+   animation:jump 2s ease-in-out 0s 3 normal;
 }
 
 @-webkit-keyframes jump{
@@ -50,32 +50,7 @@ animation:jump 2s ease-in-out 0s 5 normal;
     background-color: white;
 }
 /*---------------- Blink text ........ */
-.blink {
-  -webkit-animation: blink 2s steps(2, end) infinite both;
-  animation: blink 2s steps(2, end) infinite both;
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 
 /*---------------- Hover.css ........ */
 .hvr-sweep-to-bottom:before {
@@ -86,14 +61,7 @@ hvr-sweep-to-bottom {
     background: rgba(128, 116, 116, 0.2);
     height: 2.66rem;
 }
-.hvr-sweep-to-right:before {
-    background:   rgba(168, 185, 224, 0.973);
-    height: 2.66rem;
-}
-hvr-sweep-to-right {
-    background: rgba(168, 185, 224, 0.973);
-    height: 2.66rem;
-}
+
 /*---------------- buttons ........ */
 .btn-rounded:hover {
   position: relative;
