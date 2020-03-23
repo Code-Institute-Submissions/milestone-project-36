@@ -1,7 +1,7 @@
 # Albatross Nepal- A Music Band Website
 
 This is a single page website, to be designed for the fans of the Albatross Nepal Band and the event organizers for our ongoing concerts throughout the world. The fans will be allowed to view the band photos, listen music with their spotify or soundcloud account and watch music videos. They will also be able to contact them in order to organise gigs and any other inquiry.
-The initial home page will be used to engage new fans. There will then be anchored links within the same page divided into different sections, for the band's content and other uses. There will be a photos section for their photo collection, a music section for their music catalogue, and a contact option to allow the user to contact the band for their upcoming tour schedules and other information. The website will also be used to promote their social media pages, through the use of external links. 
+The initial home page will be used to engage new fans. There will then be anchored links within the same page divided into different sections, for the band's content and other uses. There will be a photos section for their photo collection, a music section for their music catalogue, and a contact option to allow the user to contact the band for their upcoming tour schedules and other information. The website will also be used to promote their social media pages, through the use of external links. As this is the first time for me writing readme file, I have used different sources in github as guidelines and tried to implement in my work. The sources are listed in acknowledgement section. 
 
 ## UX
 As a user, I want to use the website to:
@@ -10,7 +10,7 @@ As a user, I want to use the website to:
 - look at photos of the band on tour and of each individual band member.
 - see the bands tour dates and 'availability for booking' and are able to contact the band to organise gigs.
 Prior to beginning the project, I first drew a very basic wireframe for the web page. Here are the sketches I drew the following wireframe.
-- Wireframe 1
+- [Wireframe](assets\images\wireframe.jpg) 
 However, during development I made many changes to what was initially planned. While developing the project, I used the Whiskey Drop and Resume projects in the course for design and content inspiration.
 
 ## Features
@@ -40,7 +40,7 @@ I am using this section to display some sample music. For this, I decided to use
 ##### Future changes
 I might add more features for this section. I might add buttons that provides external links to itunes or other links for the possible purchase.
 #### Videos section
-I am using this section to display a sample video. For more of the videos, I have provided the link to follow.
+I am using this section to display 2 sample youtube videos.
 #### Albums section
 I am using this section to display some music albums. For this, I decided to use the thumbnails of the images of the album and when hovered over, the album image becomes focused.
 ##### Future changes
@@ -84,4 +84,8 @@ The text about the band was copied from the band's [official website](http://alb
 - The music is embeded from [spotify](https://open.spotify.com/album/20n6ddOmfzydLJ7cIzE52I?si=9FKc9_ZMT0-beeKyKkUkXg) and [soundcloud](https://soundcloud.com/albatrossnepal/sets/ma-ra-malai).
 
 ## Acknowledgement
-I received inspiration for this project mainly from the whiskey drop and resume projects in my course. I also tried to implement some aspects using the [music band website samples](https://www.free-css.com/template-categories/music) I found while searching in google.
+I received inspiration for this project mainly from the whiskey drop and resume projects in my course. I also tried to implement some aspects using the [music band website samples](https://www.free-css.com/template-categories/music) I found while searching in google. The sources that I used as guidelines and inspiration in writing this readme files include:
+- [Dragos0000](https://github.com/Dragos0000/rock-band-website-project)
+- [Allisang](https://github.com/Dragos0000/rock-band-website-project)
+- [TommyJackson85](https://github.com/TommyJackson85/band-website).
+
