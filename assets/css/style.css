@@ -4,11 +4,29 @@
     overflow: hidden;
 
 }
+.aboutImage {
+  max-width: 100%;
+  height: auto;
+  overflow-x: visible;
+}
 
 
+section {
+  height: 100vh;
+  margin: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+section .container-fluid, section .carousel {
+  position: relative;
+  display: block;
+  margin: 10% auto auto;
+  height: auto;
+  width: 60%;
+}
 iframe {
     border: none;
-    width: auto;
+    width: 100%;
     opacity: 1;
    filter:alpha(opacity=0);
 }
@@ -168,10 +186,26 @@ span span {
 }
 
 .social-links li a i:hover {
-  background: #7510e8;
-  font-size: 250%;
+  background: #f3f1f5;
+  font-size: 110%;
 }
-
+/*--------- Social links color on hovered ------- */
+.fa-facebook:hover {
+  color: #3b5998;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-soundcloud:hover {
+  color: #ff7700;
+}
+.fa-spotify:hover {
+  color: #191414;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+/* --------- contact form ------- */
 form .btn-rounded {
   margin: 20px;
 }
@@ -179,7 +213,7 @@ form .btn-rounded {
     font-family: 'simonetta', sans-serif;
     height: fit-content;
     border-radius: 3%;
-    background-image: linear-gradient(rgb(187, 255, 0), rgb(25, 246, 25), rgb(179, 255, 0));
+    background-image: linear-gradient(to right, rgb(243, 241, 252), rgb(164, 146, 206));
 }
 /* ......... Media Queries .............*/
 @media (max-width: 767px) {
@@ -192,6 +226,12 @@ form .btn-rounded {
   }
  #about, #audios, #videos, #albums, #gallery {
     overflow: scroll;
+}
+#videos iframe, #audios iframe {
+  border: none;
+  width: 100vw;
+  opacity: 1;
+ filter:alpha(opacity=0);
 }
   #banner {
     

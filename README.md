@@ -47,15 +47,16 @@ I am using this section to display some music albums. For this, I decided to use
 I might like to change the way the album image appears on hovering. I might also add external link for the relevant album.
 
 
-#### Photos section
+#### Images section
 For the photos page I utilized the [bootstrap carousel](https://getbootstrap.com/docs/4.0/components/carousel/). I copied the code and modified according to my need.
 ##### Future changes
 I might change the background and add more images.
 
-#### Contact form 
-The contact form appears as a pop-up when clicked on contact button. It contains a simple form consisting of name of the person, email address and the text area for message. It also includes a submit button and a reset button. I have used [bootstrap modal](https://getbootstrap.com/docs/4.0/components/modal/).
+#### Tour section
+I have used bootstrap grid system to add sample events and availability.
+The contact form appears as a pop-up when clicked on enquire button. It contains a simple form consisting of name of the person, email address and the text area for message. It also includes a submit button and a reset button. I have used [bootstrap modal](https://getbootstrap.com/docs/4.0/components/modal/).
 ##### Future changes
-I might add more required form inputs to the form (i.e. locations, dates, type of events) and I might change the design of the tour and dates for hire listings. 
+I might add more required form inputs to the form (i.e. locations, dates, type of events) and I might change the design of the tour and dates for hire listings.
 
 ## Technologies Used
 This project basically uses HTML5 and CSS3. Apart from these, I use [bootstrap classes](https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css) for standard css styles where I have made slight changes where necessary. I also have used [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css) classes for hover effect on the menu items. Besides, I have tried to implement some animation effects using [CSS trick](https://css-tricks.com/) and [animasta](https://animista.net/).

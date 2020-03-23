@@ -58,29 +58,19 @@ animation:zoom-in-out 1s ease-in-out 0s 1 normal;
     height: 2.66rem;
 }
 hvr-sweep-to-bottom {
-    background: rgba(128, 116, 116, 0.2);
+    background: rgba(238, 138, 138, 0.2);
     height: 2.66rem;
 }
 
 /*---------------- buttons ........ */
 .btn-rounded:hover {
-  position: relative;
-  z-index: 1031;
-  transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
 }
-li .btn-rounded:hover {
-  position: relative;
-  z-index: 1031;
-  transform: scale(1.0);
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -ms-transform: scale(1.0);
-  -o-transform: scale(1.0);
-}
+
 .btn-rounded:link, .btn-rounded:focus, .btn-rounded:active:focus {
   background-color:rgb(151, 3, 10);
   color: rgb(229, 240, 237);
