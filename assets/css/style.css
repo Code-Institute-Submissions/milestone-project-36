@@ -217,9 +217,7 @@ form .btn-rounded {
 }
 /* ......... Media Queries .............*/
 @media (max-width: 767px) {
-  iframe {
-    height: auto;
-}
+ 
   
   #albums img {
     height: 150px;
