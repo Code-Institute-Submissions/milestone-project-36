@@ -53,7 +53,7 @@ For the photos page I utilized the [bootstrap carousel](https://getbootstrap.com
 I might change the background and add more images.
 
 #### Tour section
-I have used bootstrap grid system to add sample events and availability.
+I have used bootstrap grid system to add sample events and availability. I took inspiration from another [student project](https://aleesang.github.io/milestone-project-one/#tour)
 The contact form appears as a pop-up when clicked on enquire button. It contains a simple form consisting of name of the person, email address and the text area for message. It also includes a submit button and a reset button. I have used [bootstrap modal](https://getbootstrap.com/docs/4.0/components/modal/).
 ##### Future changes
 I might add more required form inputs to the form (i.e. locations, dates, type of events) and I might change the design of the tour and dates for hire listings.
