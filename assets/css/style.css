@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim|Simonetta|Trade+Winds&display=swap');
 #about, #audios, #videos, #albums, #gallery {
     overflow: hidden;
-
+    margin-bottom: 50px;
 }
 .aboutImage {
   max-width: 100%;
@@ -20,7 +20,7 @@ section {
 section .container-fluid, section .carousel {
   position: relative;
   display: block;
-  margin: 10% auto auto;
+  margin: 5% auto;
   height: auto;
   width: 60%;
 }
@@ -158,11 +158,11 @@ span span {
   height: 210px;
 }
 #gallery img {
-  max-height: 400px;
+  height: 400px;
   width: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5% auto;
+  padding: 10px 0 0;
 }
 #footer-details {
   background-color: #000;
@@ -218,12 +218,16 @@ form .btn-rounded {
 /* ......... Media Queries .............*/
 @media (max-width: 767px) {
  section {
-     height: 100%;
+     height: 100vh;
     }
   section .container-fluid, section .carousel {
-  
+  height: 435px;
   width: 100%;
 }
+
+  #gallery img {
+    padding: 100px 10px 10px 10px;
+  }
   #albums img {
     height: 150px;
     width: auto;
@@ -235,8 +239,6 @@ form .btn-rounded {
 #videos iframe, #audios iframe {
   border: none;
   width: 100vw;
-  opacity: 1;
- filter:alpha(opacity=0);
 }
   #banner {
     
@@ -248,14 +250,7 @@ form .btn-rounded {
   .spacer {
     padding: 10px 0 0 0;
   }
-  #audios p, #videos p {
-  color: white;
-  font-size: 1em;
-  text-align: left;
-  border: none;
-  padding: 0px 10px 0px;
-  width: fit-content;
-    }
+
 #about p {
   color: white;
   font-size: 1.2em;
