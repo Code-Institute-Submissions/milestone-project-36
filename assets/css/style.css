@@ -1,12 +1,12 @@
 /*-------------- General Styles */
 @import url('https://fonts.googleapis.com/css?family=Akronim|Simonetta|Trade+Winds&display=swap');
 #about, #audios, #videos, #albums, #gallery {
-    overflow: hidden;
+    
     margin-bottom: 50px;
 }
 .aboutImage {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   overflow-x: visible;
 }
 
@@ -17,7 +17,14 @@ section {
   max-width: 100%;
   padding: 10px;
 }
-section .container-fluid, section .carousel {
+section .container-fluid {
+  position: relative;
+  display: block;
+  margin: 5% auto;
+  height: auto;
+  width: 80%;
+}
+section .carousel {
   position: relative;
   display: block;
   margin: 5% auto;
@@ -138,25 +145,16 @@ span span {
   padding: 0px 20px 0px;
 
 }
-#audios p, #videos p {
-  color: white;
-  font-size: 1.3em;
-  text-align: center;
-   border-bottom: 2px solid white;
-  border-top: 2px solid white;
-  padding: 0px 10px 0px;
-  width: fit-content;
-    }
+
 
 
 
 #albums img {
   height: 200px;
   width: auto;
+  border: 1px solid rgba(179, 176, 184, 0.918);
 }
-#albums img:hover {
-  height: 210px;
-}
+
 #gallery img {
   height: 400px;
   width: auto;
@@ -234,7 +232,7 @@ form .btn-rounded {
     margin: 5px;
   }
  #about, #audios, #videos, #albums, #gallery {
-    overflow: scroll;
+    overflow: auto;
 }
 #videos iframe, #audios iframe {
   border: none;
@@ -253,7 +251,6 @@ form .btn-rounded {
 
 #about p {
   color: white;
-  font-size: 1.2em;
   text-align: justify;
   border-left: 2px solid white;
   margin-top: 5px;
@@ -279,7 +276,5 @@ form .btn-rounded {
    
     margin: 7px;
   }
-  #albums img:hover {
-    height: 110px;
-  }
+
 }

@@ -33,17 +33,21 @@ The footer has external links where the user can find the band’s content.
 I might have to add more links: external or internal for which I may need to replace the position of the band logo in different place.
 
 #### Initial Home Page
-When a user opens the web, the initial page consists of animated band logo and background band image. Also, I decide to add a blinking animation with some text and music logo from fontawesome.
+When a user opens the web, the initial page consists of animated band logo and background band image. Also, I had initially decided to add a blinking animation with some text and music logo from fontawesome but later removed with the consultation with my mentor.
+#### About section
+It includes a brief introduction of the band.
+##### Future changes
+I might like to add pop up or external link to give more information about the band.
 #### Music section
-I am using this section to display some sample music. For this, I decided to use their spotify link for larger screen and soundcloud link for mobile devices.
+I am using this section to display some sample music. For this, I had initially decided to use their spotify link for larger screen and soundcloud link for mobile devices but later opted for spotify alone.
 ##### Future changes
 I might add more features for this section. I might add buttons that provides external links to itunes or other links for the possible purchase.
 #### Videos section
 I am using this section to display 2 sample youtube videos.
 #### Albums section
-I am using this section to display some music albums. For this, I decided to use the thumbnails of the images of the album and when hovered over, the album image becomes focused.
+I am using this section to display some music albums. For this, I decided to use the thumbnails of the images of the album.
 ##### Future changes
-I might like to change the way the album image appears on hovering. I might also add external link for the relevant album.
+I might like to add dropdown buttons appear just below each albums which includes external links to buy or listen the albums.
 
 
 #### Images section
