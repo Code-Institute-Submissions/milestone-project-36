@@ -10,7 +10,7 @@ As a user, I want to use the website to:
 - look at photos of the band on tour and of each individual band member.
 - see the bands tour dates and 'availability for booking' and are able to contact the band to organise gigs.
 
-- Prior to beginning the project, I first drew a very basic wireframe for the web page. Here are the sketches I drew a [Wireframe](assets\images\wireframe.jpg). However, during development I made many changes to what was initially planned. While developing the project, I used the Whiskey Drop and Resume projects in the course for design and content inspiration.
+- Prior to beginning the project, I first drew a very basic wireframe for the web page. Here are the sketches I drew a [Wireframe](https://github.com/gpun10/milestone-project-1/blob/master/assets/images/wireframe.jpg). However, during development I made many changes to what was initially planned. While developing the project, I used the Whiskey Drop and Resume projects in the course for design and content inspiration.
 
 ## Features
 The website will have a header and footer. Between the header and footer, the main body is divided into different sections: about, audio, video, albums, gallery. 
